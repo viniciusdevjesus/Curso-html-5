@@ -1,0 +1,93 @@
+* {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: black;
+}
+div#wrapper {
+    padding: 0;
+    width: 1000px;
+    height: 1350px;
+    background-color: #000000;
+}
+header {
+    height: 120px;
+    width: 960px;
+    background-color: rgb(0, 0, 0);
+    border: 1px rgb(0, 255, 0) solid;
+    border-radius: 5px;
+}
+header img#logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+header nav {
+    margin-top: 10px;
+    width: 958px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: black;
+    line-height: 100px;
+}
+header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px 100px 5px 5px;
+    padding: 0;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+    font-weight: bolder;
+}
+
+
+
+
+
+div.content {
+    width: 960px;
+    height: 950px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px rgb(0, 255, 0) solid;
+    color: rgb(255, 255, 255);
+    
+}
+div.content span h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+div.content span p {
+    text-align: justify;
+    margin: 5px 20px 0px 20px;
+}
+footer {
+    height: 150px;
+    width: 960px;
+    clear: both;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 1px rgb(0, 255, 0) solid;
+    color: #fff;
+}
+footer P{
+   font-size: 20px;
+   padding-bottom:10px ;
+   font-family:\Amazon Ember\, Arial, sans-serif;
+   padding-left: 10px;
+}
+footer P:last-child{
+    font-size: 20px;
+    padding-top:10px ;
+    font-family:\Amazon Ember\, Arial, sans-serif;
+    margin-top: 7px;
+    padding-left: 10px;
+ }
